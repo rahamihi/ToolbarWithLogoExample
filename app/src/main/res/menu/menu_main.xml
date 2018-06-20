@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Action Settings"
+        android:orderInCategory="400"
+        android:icon="@drawable/ic_settings"
+        />
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        />
+    <item
+
+        android:id="@+id/user_account"
+        android:title="User Account"
+        android:icon="@drawable/ic_account"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom"
+        />
+</menu>
